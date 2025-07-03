@@ -21,8 +21,7 @@ processing, model training, and API deployment.
 │   └── logos/              # Logos
 ├── misc/                   # Additional files
 │   ├── guide.pdf           # Project guide
-│   ├── refs.bib            # References for report
-│   └── video.mp4           # Walkthrough video
+│   └── refs.bib            # References for report
 ├── report/                 # LaTeX files for the final project report
 ├── results/                # Output folders with metrics, logs, and model files
 ├── src/                    # Source code for modeling and API
@@ -30,6 +29,7 @@ processing, model training, and API deployment.
 │   ├── main.py             # Model generation
 │   ├── model/              # Model training and inference logic
 │   └── processing/         # Feature selection and data preprocessing
+├── videos/                 # Walktrough demo video
 ├── LICENSE                 # License file
 ├── pyproject.toml          # Python project configuration
 ├── requirements.txt        # Python dependencies
