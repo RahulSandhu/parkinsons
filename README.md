@@ -76,6 +76,8 @@ external sources)
 
 * `results/YYYY-MM-DD_HH-MM-SS/`: Timestamped directories containing evaluation
 results, model files, and logs
+* Best performance achieved by the normalized KNN model with 97% accuracy at k
+= 4
 
 ## 📈 Figures
 

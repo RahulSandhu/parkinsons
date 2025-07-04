@@ -4,10 +4,11 @@ from typing import cast
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from model.collinearity import collinearity
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
+
+from model.collinearity import collinearity
 
 
 def model_generator(
@@ -138,7 +139,7 @@ def best_k(
 
 if __name__ == "__main__":
     # Use custom style
-    plt.style.use("../../config/custom.mplstyle")
+    plt.style.use("../../config/matplotlib/mhedas.mplstyle")
 
     # Load preprocessed data
     df_clean = pd.read_csv("../../data/processed/parkinsons_clean.data")

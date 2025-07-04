@@ -124,7 +124,7 @@ def scatter_plot(
 
 if __name__ == "__main__":
     # Use custom style
-    plt.style.use("../../config/custom.mplstyle")
+    plt.style.use("../../config/matplotlib/mhedas.mplstyle")
 
     # Load dataset
     df_norm = pd.read_csv("../../data/processed/parkinsons_norm.data")
