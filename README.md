@@ -7,7 +7,7 @@ progression using K-Nearest Neighbors (KNN) and integrating the final model
 into a minimal API for real-time prediction. The project includes code for data
 processing, model training, and API deployment.
 
-## 🕸️ Project
+## 📝 Project
 
 ```
 ├── config/                 # Custom configuration (e.g., Matplotlib style)
@@ -22,7 +22,7 @@ processing, model training, and API deployment.
 ├── misc/                   # Additional files
 │   ├── guide.pdf           # Project guide
 │   └── refs.bib            # References for report
-├── report/                 # LaTeX files for the final project report
+├── report/                 # Final project report
 ├── results/                # Output folders with metrics, logs, and model files
 ├── src/                    # Source code for modeling and API
 │   ├── api/                # FastAPI implementation for model inference
@@ -76,8 +76,7 @@ external sources)
 
 * `results/YYYY-MM-DD_HH-MM-SS/`: Timestamped directories containing evaluation
 results, model files, and logs
-* Best performance achieved by the normalized KNN model with 97% accuracy at k
-= 4
+* Best performance achieved by normalized KNN model with 97% accuracy at k = 4
 
 ## 📈 Figures
 
@@ -86,11 +85,6 @@ All visual outputs from the project are saved in the `images/` directory:
 * Feature selection visualizations
 * API diagrams and testing examples
 * Project logos
-
-## 📄 Report
-
-The full project report is available at `report/main.pdf`. All LaTeX source
-files are in the same directory.
 
 ## 📚 License
 

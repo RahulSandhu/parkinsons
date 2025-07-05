@@ -22,18 +22,18 @@ compared its correlation with all other features. A scoring system assigned
 higher scores to features with lower overall correlation. Features with higher
 scores were kept, while others were removed.
 
+In \cref{fig:fig2}, we show correlations for fundamental frequency features. As
+you can see, since these metrics are relative to the same measure, it makes
+sense that they show some sort of correlation between them. The final selected
+features to train the model were: absJitter, apq, D2, DFA, HNR, maxFF, NHR,
+PPE, RPDE, spread1, spread2.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\textwidth,height=6cm]{../images/feature_selection/fundamental-frequency.png}
 	\caption{Correlation among fundamental frequency-related parameters.}
 	\label{fig:fig2}
 \end{figure}
-
-\cref{fig:fig2} shows correlations for fundamental frequency features. As you
-can see, since these metrics are relative to the same measure, it makes sense
-that they show some sort of correlation between them. The final selected
-features to train the model were: absJitter, apq, D2, DFA, HNR, maxFF, NHR,
-PPE, RPDE, spread1, spread2.
 
 For validation, the data was split into 70\% training and 30\% testing. To
 optimize the hyperparameter \(k\), we selected the value where testing and

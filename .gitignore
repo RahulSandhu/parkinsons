@@ -6,11 +6,5 @@
 # Ignore everything under report/
 report/**
 
-# Re-allow folders and subfolders
-!report/
-!report/**/
-
 # Re-allow desired file types
-!report/**/*.tex
-!report/**/*.sty
 !report/**/*.pdf
