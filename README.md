@@ -60,14 +60,13 @@ processing, model training, and API deployment.
 ## 🖥️ Source
 
 * `src/api/`: FastAPI app and endpoint logic
-* `src/main.py`: Entrypoint to launch the API server
-* `src/model/`: KNN model training, saving, and loading functions
-* `src/processing/`: Data preprocessing, feature engineering, and selection
+* `src/main.py`: Entrypoint to generate models
+* `src/model/`: KNN model training and feature selection
+* `src/processing/`: Data preprocessing
 
 ## 📁 Data
 
-* `data/raw/`: Original Parkinson’s disease dataset (e.g., extracted from
-external sources)
+* `data/raw/`: Original Parkinson’s disease dataset
 * `data/processed/`: Cleaned and transformed data used for modeling
 * `data/dummy/`: Synthetic examples used for testing the API
 
