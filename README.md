@@ -10,7 +10,6 @@ processing, model training, and API deployment.
 ## 📝 Project
 
 ```
-├── config/                 # Custom configuration (e.g., Matplotlib style)
 ├── data/                   # Raw, processed, and dummy datasets
 │   ├── dummy/              # Example data for testing the API
 │   ├── processed/          # Cleaned dataset

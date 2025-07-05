@@ -3,8 +3,9 @@
 ./.venv/
 *.mp4
 
-# Ignore everything under report/
+# Ignore specific folders
 report/**
+config/**
 
 # Re-allow only main.pdf
 !report/main.pdf
