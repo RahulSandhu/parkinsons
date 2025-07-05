@@ -76,14 +76,6 @@ processing, model training, and API deployment.
 results, model files, and logs
 * Best performance achieved by normalized KNN model with 97% accuracy at k = 4
 
-## 📈 Figures
-
-All visual outputs from the project are saved in the `images/` directory:
-
-* Feature selection visualizations
-* API diagrams and testing examples
-* Project logos
-
 ## 📚 License
 
 This project is licensed under the terms of the [LICENSE](LICENSE) file.
