@@ -40,8 +40,8 @@ processing, model training, and API deployment.
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/RahulSandhu/parkinsons-api
-   cd parkinsons-api
+   git clone https://github.com/RahulSandhu/parkinsons
+   cd parkinsons
    ```
 
 2. **Create and activate a virtual environment**
