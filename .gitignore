@@ -1,7 +1,7 @@
 # Ignore files and folders
-*.mp4
-report/**
 config/**
+report/**
+*.mp4
 
 # Re-allow only main.pdf
 !report/main.pdf
